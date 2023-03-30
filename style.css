@@ -1,0 +1,62 @@
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f5f5ee;
+}
+
+p{
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#photoune{
+    background-image: url(https://iflyer.corsica/files/AugustMarine/general/jet-ski-sagone/Img01.jpg);
+    width: 99vw;
+}
+
+#liensite{
+    color: rgb(0, 0, 0);
+    background-color: #eff0eb;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all 250ms ease;
+}
+
+#liensite:hover{
+    background-color: #f2f2ee;
+    color:#0c0f00;
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+div{
+    width: 400px;
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+}
+ 
+.shadow{
+    box-shadow: 20px 20px 20px;
+}
+
+body{
+    background-color:#feedb7;
+}
+
+video{
+    margin: 0 auto;
+    width: 1050px;
+    display: block;
+}
+ 
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1000px;
+}
